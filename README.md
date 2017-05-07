@@ -1,7 +1,7 @@
 # CtrlServers
 
 This project is primarily a web server which exposes a rest interface that forwards commands to multiple machines over ssh, and returns the command output from each. It is implemented in python3 (tested with python 3.5). A simple client is also included.
-The api is available at http://<hostname>/api/, and has a 'run' resource and a 'configure' resource. Both these resources only acccept a POST request with a json payload.
+The api is available at <pre>http://<hostname>/api/</pre>, and has a 'run' resource and a 'configure' resource. Both these resources only acccept a POST request with a json payload.
 
 See the client application for details.
  
